@@ -44,13 +44,17 @@ body{
     float: left;
 }
 
+.col-bottom{
+    float: left;
+}
+
 /* HEADER */
 .header-top img{
     height: 80px;
 }
 
 .header-link{
-    margin: 20px 0;
+    margin: 25px 0;
 }
 
 .header-link ul{
@@ -102,6 +106,10 @@ main{
 }
 
 /* Colonne superiori */
+.col-superiore{
+    margin: 20px 0;
+}
+
 .col-superiore-top{
     font-size: 60px;
     font-weight: bold;
@@ -149,7 +157,7 @@ main{
 }
 
 .col-inferiore h3{
-    margin: 10px 0;
+    margin-bottom: 10px;
 }
 
 .col-inferiore p{
@@ -157,7 +165,19 @@ main{
 }
 
 /* FOOTER */
+
+footer{
+    font-weight: bold;
+}
+
 .col-footer{
     height: 50px;
-    background-color: #8801fe;
+
+    margin: 20px 0;
+    text-align: center;
+}
+
+.heart{
+    color: red;
+    font-size: 25px;
 }
