@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Montserrat;
+}
+
 /* COMMON */
 .container{
     width: 80%;
@@ -26,10 +30,28 @@
 }
 
 /* HEADER */
-
-.header-top{
+.header-top img{
     height: 80px;
-    background-color: #e579e6;
+}
+
+.header-link{
+    margin: 20px 0;
+}
+
+.header-link ul{
+    list-style-type: none;
+}
+
+.header-link li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.header-link a{
+    color: #909090;
+    text-decoration: none;
+    font-size: 21px;
+    text-transform: uppercase;
 }
 
 .header-bottom{
