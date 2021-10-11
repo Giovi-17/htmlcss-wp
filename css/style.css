@@ -40,8 +40,7 @@ body{
 }
 
 .col{
-    background-color: #abcfe7;
-    height: 400px;
+    height: 325px;
     float: left;
 }
 
@@ -99,7 +98,6 @@ body{
 
 /* MAIN */
 main{
-    background-color: #0185fd;
     margin: 10px 0;
 }
 
@@ -139,6 +137,23 @@ main{
 
 .col-destra{
     background-image: url("../img/img-3.jpg");
+}
+
+.col-sinistra-bottom, .col-destra-bottom{
+    width: 23.5%;
+}
+
+.col-centro-bottom{
+    width: 50%;
+    margin: 0 1.5%;
+}
+
+.col-inferiore h3{
+    margin: 10px 0;
+}
+
+.col-inferiore p{
+    color: #909090;
 }
 
 /* FOOTER */
