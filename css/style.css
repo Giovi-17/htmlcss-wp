@@ -1,5 +1,4 @@
 /* RESET */
-
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +20,23 @@ body{
     content: "";
     display: table;
     clear: both;
+}
+
+.layout-image{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: inherit;
 }
 
 .col{
@@ -60,20 +76,6 @@ body{
     background-color: #e1d67a;
     margin: 30px 0;
     background-image: url("../img/banner.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-}
-
-.overlay{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: inherit;
 }
 
 .info-header-bottom{
@@ -102,25 +104,41 @@ main{
 }
 
 /* Colonne superiori */
-.col-superiore{
-    background-color: #abcfe7;
-    height: 70px;
+.col-superiore-top{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.col-superiore-bottom{
+    font-size: 20px;
+    color: #909090;
 }
 
 /* Colonne inferiori */
 .col-inferiore{
     width: 100%;
     padding: 20px 0 10px 0;
+    position: relative;
 }
 
 .col-sinistra, .col-destra{
     width: 23.5%;
+    position: relative;
+}
 
+.col-sinistra{
+    background-image: url("../img/img-1.jpg");
 }
 
 .col-centro{
+    position: relative;
     width: 50%;
     margin: 0 1.5%;
+    background-image: url("../img/banner-2.jpg");
+}
+
+.col-destra{
+    background-image: url("../img/img-3.jpg");
 }
 
 /* FOOTER */
